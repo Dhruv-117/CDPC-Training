@@ -1,0 +1,92 @@
+no=int(input("Enter any value: "))
+
+n1=no%10    # Extracts last digit
+no=no//10   # Removes last digit
+n2=no%10    # Extracts next digit
+n3=no//10   # Extracts remaining digit
+rev=n1*100+n2*10+n3*1
+print(res)  # (Should be rev)
+
+
+Algorithms and Data Structures
+Algorithms: Defined simply as step-by-step instructions for any program
+.
+Data Structures: These are different methods for organising data on a computer so it can be used effectively
+.
+Classification: Data structures are categorised into two main types
+:
+Primitive: Basic types such as Integers, Floats, Characters, Strings, and Booleans.
+Non-Primitive: Further divided into:
+Linear: Includes Static structures (like Arrays) and Dynamic structures (such as Linked Lists, Stacks, and Queues).
+Non-Linear: Includes Trees and Graphs.
+Measuring Efficiency: Big O Notation
+Big O notation is the language and metric used to describe the efficiency of algorithms, especially as input sizes grow
+. It helps standardise how we express an algorithm's behaviour (e.g., how it performs with 10 pages versus 1,000,000 pages of data)
+.
+Complexity Types:
+Time Complexity: Measures the time an algorithm takes to execute (e.g., Code 1 taking 30 seconds vs. Code 2 taking 60 seconds)
+.
+Space Complexity: Measures the amount of memory an algorithm uses
+.
+Performance Cases: Algorithms are evaluated based on their Best case, Average case, and Worst case scenarios
+. These scenarios are often compared to real-world analogies, such as fuel consumption in city traffic versus highway driving
+.
+Notations: Common Big O notations include O(n), O(n 
+2
+ ), and O(2 
+n
+ )
+. Other related notations include Big Omega (Ω) and Big Theta (Θ)
+.
+Rules for Measuring Complexity
+The sources provide five specific rules for calculating the complexity of code
+:
+Rule 1: Assignment and "if" statements executed once have a complexity of O(1).
+Rule 2: A simple "for" loop from 0 to n is O(n).
+Rule 3: A nested loop of the same type results in quadratic complexity, O(n 
+2
+ ).
+Rule 4: A loop where the controlling parameter is divided by two at each step is O(logn).
+Rule 5: For multiple statements, you simply add their complexities together.
+Practical Examples
+Python Code: One source shows a script that takes a numerical input and uses mathematical operations (modulus and floor division) to manipulate its digits
+.
+Grid Complexity: An example of nested loops iterating over a grid with height (h) and width (w) is shown to have a time complexity of O(wh)
+.
+What is the difference between Big O and Big Omega?
+Can you explain the difference between linear and non-linear structures?
+How do you calculate O(log n) complexity in a loop?
+also give the code
+
+This summary outlines the core concepts of algorithms, data structures, and the rules for measuring their efficiency using Big O notation, as detailed in the sources.
+Algorithms and Data Structures
+Definition of Algorithm: An algorithm is defined as the step-by-step instructions required for any program
+.
+Definition of Data Structures: These are specific methods used to organise data on a computer to ensure it is used effectively
+.
+Classification: Data structures are broadly categorised into two types:
+Primitive: Includes basic types like Integer, Float, Character, String, and Boolean
+.
+Non-Primitive: These are further split into Linear (Static like Arrays; Dynamic like Linked Lists, Stacks, and Queues) and Non-Linear (Trees and Graphs)
+.
+Big O Notation and Complexity
+Big O notation serves as the language and metric used to describe the efficiency of algorithms, especially when dealing with large inputs
+. It helps developers understand how an algorithm will behave if the input grows from 1,000 to 1 million
+.
+Time vs. Space Complexity: Time complexity measures the execution time of code (e.g., comparing a 30-second script to a 60-second one), while space complexity measures the memory usage
+.
+Performance Cases: Algorithms are evaluated based on three scenarios: Best case, Average case, and Worst case
+. The sources compare these to fuel consumption, where "City traffic" represents a high-consumption (worst) case and "Highway" represents a low-consumption (best) case
+.
+Metric Types: Common notations include Big O (Omicron), Big Omega (Ω), and Big Theta (Θ)
+.
+Rules for Measuring Complexity
+The sources provide five specific rules for calculating the Big O complexity of code
+:
+Rule 1: Assignment and "if" statements executed once are O(1).
+Rule 2: A simple "for" loop (0 to n) is O(n).
+Rule 3: A nested loop of the same type results in quadratic complexity, O(n 
+2
+ ).
+Rule 4: A loop where the controlling parameter is divided by two at each step is O(logn).
+Rule 5: When dealing with multiple statements, you add their complexities together.
