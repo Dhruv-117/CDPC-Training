@@ -87,4 +87,52 @@
 #     b=int(input("Enter digit: "))
 #     ar.append(b)
 # print(remove(ar))
+#
+# Pattern 
+# i = 1
+# j = 10
+
+# while i < j:
+#     if i == 3 and j == 8:
+#         i = i + 1
+#         j = j - 1
+#         continue
+
+#     print(i, "\t", j)
+#     i = i + 1
+#     j = j - 1
+#
+# op: 1 	 10
+# 2 	 9
+# 4 	 7
+# 5 	 6
+# 
+# Alternating pos and neg numbers in an array
+# arr = [1, -2, 3, -4, -1, 4]
+
+# pos = []
+# neg = []
+
+# # separate positive and negative numbers
+# for i in arr:
+#     if i >= 0:
+#         pos.append(i)
+#     else:
+#         neg.append(i)
+
+# result = []
+# i = j = 0
+
+# # arrange alternately
+# while i < len(pos) and j < len(neg):
+#     result.append(pos[i])
+#     result.append(neg[j])
+#     i += 1
+#     j += 1
+
+# # add remaining elements
+# result.extend(pos[i:])
+# result.extend(neg[j:])
+
+# print(result)
 
