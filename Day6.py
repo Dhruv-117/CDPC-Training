@@ -72,4 +72,16 @@
 # 0.333333
 # 0.166667
 
+# Rotate array:
+# ar=eval(input("Enter: "))
+# n=int(input("enter n: "))
+# len=len(ar)
+# ar=ar[len-n:]+ar[:len-n]
+# print(ar)
+# Output: 
+# Enter: [2,4,5,6,2]
+# enter n: 3
+# [5, 6, 2, 2, 4]
+
 # 
+
